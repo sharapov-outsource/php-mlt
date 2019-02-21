@@ -1,0 +1,32 @@
+{
+  "name": "sharapov/php-mlt",
+  "description": "A PHP wrapper for MLT framework (https://www.mltframework.org)",
+  "license": "GPL-3.0",
+  "type": "library",
+  "keywords": [
+    "mlt",
+    "php-mlt",
+    "melt",
+    "video processing",
+    "video",
+    "audio processing",
+    "audio"
+  ],
+  "homepage": "https://github.com/sharapov-outsource/php-mlt",
+  "authors": [
+    {
+      "name": "Alexander Sharapov",
+      "email": "alexander@sharapov.biz",
+      "homepage": "http://sharapov.biz",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Sharapov\\PHP-MLT\\": "src/php-mlt/"
+    }
+  }
+}
