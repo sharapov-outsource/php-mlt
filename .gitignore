@@ -1,3 +1,9 @@
 # Created by .ignore support plugin (hsz.mobi)
 vendor
 .idea
+composer.lock
+examples/output/*
+!examples/output/.gitkeep
+examples/source/*
+!examples/source/.gitkeep
+src/
