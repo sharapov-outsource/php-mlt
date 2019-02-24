@@ -12,3 +12,13 @@ error_reporting(E_ALL);
 ini_set('display_errors', 1);
 date_default_timezone_set('UTC');
 
+// Init mlt library
+$mlt = \Sharapov\PHPMLT\PHPMLT::create();
+$mlt
+  ->setProfile(new \Sharapov\PHPMLT\Profile\HDV1080())
+  ->filter((new \Sharapov\PHPMLT\Filter\JoinClip())
+             ->add('source/1-dropmock10.mov')
+             ->add('source/1-dropmock11.mov')
+  )
+  ->save('source/_out.mp4');
+

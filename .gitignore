@@ -6,4 +6,3 @@ examples/output/*
 !examples/output/.gitkeep
 examples/source/*
 !examples/source/.gitkeep
-src/
